@@ -30,6 +30,19 @@ p {
     text-decoration: none;
   }
 
+  .navbar ul li a:hover,
+  .navbar ul li a.active {
+    color: violet;
+  }
+
+  ::placeholder {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    content: "\f007";
+    text-align: right;
+    color: #000;
+  }
+
   .navitem {
     list-style: none;
   }
@@ -155,6 +168,16 @@ p {
         padding-bottom: 20px;
       }
 
+      .card .idtitle-json {
+        color: red;
+      }
+
+      .card span {
+        color: blue;
+        font-size: .85rem;
+        margin-left: .5rem;
+      }
+
 /* Contact */
 .contact {
     height: 70vh;
@@ -186,7 +209,7 @@ p {
     font-size: 1rem;
     line-height: 1.5;
     color: #000;
-    background-color: #087b8f;
+    background-color: #0ce5d3;
     background-clip: padding-box;
     border: 1px solid #F2F3F6;
     border-radius: 0.25rem;
