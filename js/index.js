@@ -28,13 +28,12 @@
          if(element.id <=3){
              const card = document.createRange().createContextualFragment(`
                      <div class="card">  
-                     <div class="description flex">
-                        <p>${element.category}</p>
-                        <p class="price">${element.price}</p>
-                     </div>              
-                      
-                          <img src="${element.image}" alt="">
-                          <p>In ipsum ac tincidunt volutpat lacinia. Egestas quis neque, volutpat elementum. Scelerisque massa aliquam tellus sit nibh. Dignissim ipsum viverra id cursus adipiscing.</p>                
+                        <div class="description flex">
+                            <p>${element.category}</p>
+                            <p class="price">${element.price}</p>
+                        </div>              
+                        <img src="${element.image}" alt="">
+                        <p>In ipsum ac tincidunt volutpat lacinia. Egestas quis neque, volutpat elementum. Scelerisque massa aliquam tellus sit nibh. Dignissim ipsum viverra id cursus adipiscing.</p>                
                      </div> 
                  `)
                  const services_row = document.querySelector('.services-row');
