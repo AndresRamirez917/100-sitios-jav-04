@@ -78,6 +78,12 @@ p {
     text-align: center;
   }
 
+  .flex {
+    display: flex;
+    flex: 1;
+    gap: 12rem;
+  }
+
 .showcase {
     height: 100vh;
     background: url("/img/background.jpg");
@@ -165,7 +171,10 @@ p {
       
       .card img {
         width: 100%;
-        padding-bottom: 20px;
+        height: 70vh;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 10px 5px 5px rgb(192, 192, 192);
       }
 
       .card .idtitle-json {
@@ -174,8 +183,17 @@ p {
 
       .card span {
         color: blue;
-        font-size: .85rem;
-        margin-left: .5rem;
+        display: flex;
+        justify-content: end;
+        
+      }
+
+      .card .price {
+        display: flex;
+        color: red;
+        justify-content: end;
+        justify-items: end;
+        justify-self: end;
       }
 
 /* Contact */
